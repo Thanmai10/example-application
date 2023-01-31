@@ -1,7 +1,8 @@
 name: new Release
 on:
   push:
-  workflow_dispatch:
+    tags:
+      - v*
 
 jobs:
   build:
